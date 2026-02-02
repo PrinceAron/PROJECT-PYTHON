@@ -1,4 +1,5 @@
 # The Grocery Stocker 🛒 
+# 70
 
 in_stock = ["apple", "milk", "bread", "eggs"]
 delivery_truck = []

@@ -1,4 +1,4 @@
-# The Airport Customs Scanner
+# The Airport Customs Scanner PERFECT
 prohibited_items = ["knife", "explosives", "liquids"]
 
 security_log = []
