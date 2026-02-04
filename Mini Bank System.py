@@ -22,11 +22,7 @@ while True:
                     account[accountlog] += depositf
                     print(f"-----------------------{opperation}-----type back to go back------------")
                     print(f"You deposit: {depositf}")
-            elif deposit.lower() == "back":
-                print("-----------------------------------------------------")
-                print(f"Hi user {accountlog} Welcome to our Mini Bank System")
-                print("Please select this option", opperationList)
-                opperation = input("What do you want to do: ")
+            
 
 
     else:
