@@ -22,7 +22,9 @@ while True:
                     account[accountlog] += depositf
                     print(f"-----------------------{opperation}-----type back to go back------------")
                     print(f"You deposit: {depositf}")
-            
+        elif deposit.lower() == "back":
+            continue
+        
 
 
     else:
