@@ -11,16 +11,13 @@ how_many = int(input("Please Enter How many applicant: "))
 applicants = []
 
 for register in range(how_many):
-    while True:
-
         job_seeker = {
             "name": input("Please Enter Your Name: "), 
             "age": int(input("Please Enter Your Age: ")),
         }
-        
         applicants.append(job_seeker)
 
 
 accepted = get_eligible_candidates(applicants)
-
-print(f"Name: {job_seeker['name']}")
+for accept in accepted:
+    print(f"Name: {accept['name'].capitalize()}, Status = Accepted")
