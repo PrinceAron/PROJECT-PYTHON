@@ -6,7 +6,7 @@ def find_book():
         "To Kill a Mockingbird": "Harper Lee",
         "The Hobbit": "J.R.R. Tolkien"
     }
-#
+##
     # User input
     title = input("Enter the book title: ").title().replace("A", "a")
     # Lookup using .get() to handle missing keys gracefully
